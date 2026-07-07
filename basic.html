@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying out things</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;             
+        }
+        th,td{
+            
+            border-style: double;
+            border-color: rgb(196, 144, 201);
+            padding-top:25px;
+            padding-bottom:10px;
+            padding-left:25px;
+            padding-right:45px;
+        }
+        tr:nth-child(odd){
+             
+            background-color:#9890D2; 
+        }
+        tr{
+            height:50px;   
+        }
+        td:hover{
+            background-color:rgb(111, 72, 106);
+        }
+        table{
+            border-spacing:5px;
+        }
+        th:hover{
+            background-color:pink;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>A bsic HTML table</h2>
+ <table style="width:70%">
+    <tr style="height:70px">
+        <th style="width:40%">NAME</th>
+        <th style="width:30%">LAST NAME</th>
+        <th style="width:30%">PHONE NUMBER</th>
+    </tr>
+    <tr>
+        <td>Abhi</td>
+        <td>Sharma</td>
+        <td>1234567897</td>
+    </tr>
+    <tr>
+        <td>Ishaan</td>
+        <td>Verma</td>
+        <td>2345678916</td>
+    </tr>
+    <tr>
+        <td>Trish</td>
+        <td>Singh</td>
+        <td>3456789124</td>
+    </tr>
+ </table>
+ <br>
+ <hr>
+ <br>
+ <table style="width:70%">
+    <caption>Details</caption>
+    <tr style="height:70px">
+        <th style="width:40%" rowspan="2">NAME</th>
+        <td>Abhi</td>
+        <td>Ishaan</td>
+        <td>Trish</td>
+    </tr>
+    <tr style="height:70px">
+        
+        <td>Sharma</td>
+        <td>Verma</td>
+        <td>Singh</td>
+    </tr>
+    <tr style="height:70px">
+        <th style="width:40%">PHONE NUMBER</th>
+        <td>1234567897</td>
+        <td>2345678916</td>
+        <td>3456789124</td>
+    </tr>
+ </table>
+ <br>
+ <hr>
+ <br>
+ <table style="width: 100%;">
+<colgroup>
+  <col span="3">
+  <col span="2" style="background-color: rgb(208, 124, 254)">
+</colgroup>
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THU</th>
+<th>FRI</th>
+<th>SAT</th>
+<th>SUN</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+<tr>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+</tr>
+</table>
+<br>
+<hr>
+<br>
+<h2>HTML Lists</h2>
+<h3>unordered list</h3>
+<ul style="list-style-type:square;">
+    <li>pens</li>
+    <li>pencils</li>
+    <li>notebooks</li>
+    <li>markers</li>
+</ul>
+<h3>ordered list</h3>
+<ol>
+    <li>milk</li>
+    <li>coffee</li>
+    <li>tea</li>
+    <li>peanut butter</li>
+</ol>
+<h3>discription list</h3>
+<dl>
+    <dt>ball point pens</dt>
+    <dd>-should be blue(5)</dd>
+    <dt>markers</dt>
+    <dd>-should be black and red(2)</dd>
+    <dt>highlighters</dt>
+    <dd>-green,blue,and pink</dd>
+</dl>
+<h3>nested list</h3>
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+<h3>Different types of ordered lists</h3>
+<h4>ordered list with letters</h4>
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+<h4>ordered list with numbers</h4>
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+</body>
+</html>
